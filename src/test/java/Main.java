@@ -1,12 +1,12 @@
-import junit.framework.*;
 import org.junit.Test;
+import static junit.framework.Assert.assertEquals;
 
-public class Main extends TestCase {
+public class Main {
 
     Calculator calculator = new Calculator();
 
     @Test
-    private void sum(){
+    public void sum(){
         int resultSum = calculator.sum(3,2);
         assertEquals(5, resultSum);
     }
