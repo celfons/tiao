@@ -11,5 +11,8 @@
         <module name="tiaoo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Marcel" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
