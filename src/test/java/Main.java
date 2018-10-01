@@ -19,7 +19,7 @@ public class Main {
 
     @Test
     public void areaTriangle(){
-        int resultAreaTriangle = calculator.areaTriangle(3,2);
+        int resultAreaTriangle = triangle.areaTriangle(3,2);
         assertEquals(3, resultAreaTriangle);
     }
 
