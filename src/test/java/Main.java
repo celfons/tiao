@@ -35,8 +35,8 @@ public class Main {
 
     @Test
     public void areaCube(){
-        double resultArea = triangle.multiplication(3,2,1);
-        assertEquals(3.0, resultArea);
+        double resultArea = calculator.multiplication(3,2,1);
+        assertEquals(6.0, resultArea);
     }
 
 }
