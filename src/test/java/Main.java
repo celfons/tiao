@@ -11,4 +11,10 @@ public class Main {
         assertEquals(5, resultSum);
     }
 
+    @Test
+    public void area(){
+        int resultAreaQuadratic = calculator.multiplication(3,2);
+        assertEquals(5, resultAreaQuadratic);
+    }
+
 }
