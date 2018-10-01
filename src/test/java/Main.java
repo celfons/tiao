@@ -12,7 +12,7 @@ public class Main {
     }
 
     @Test
-    public void area(){
+    public void areaSquare(){
         int resultAreaSquare = calculator.multiplication(3,2);
         assertEquals(6, resultAreaSquare);
     }
