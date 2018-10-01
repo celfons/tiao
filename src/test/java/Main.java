@@ -4,6 +4,7 @@ import static junit.framework.Assert.assertEquals;
 public class Main {
 
     Calculator calculator = new Calculator();
+    Triangle triangle = new Triangle();
 
     @Test
     public void sum(){
@@ -19,8 +20,8 @@ public class Main {
 
     @Test
     public void areaTriangle(){
-        int resultAreaTriangle = triangle.areaTriangle(3,2);
-        assertEquals(3, resultAreaTriangle);
+        double resultAreaTriangle = triangle.areaTriangle(3,2);
+        assertEquals(3.0, resultAreaTriangle);
     }
 
 }
