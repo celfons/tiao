@@ -17,4 +17,10 @@ public class Main {
         assertEquals(6, resultAreaSquare);
     }
 
+    @Test
+    public void areaTriangle(){
+        int resultAreaTriangle = calculator.areaTriangle(3,2);
+        assertEquals(3, resultAreaTriangle);
+    }
+
 }
