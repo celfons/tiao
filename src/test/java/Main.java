@@ -20,8 +20,8 @@ public class Main {
 
     @Test
     public void areaTriangle(){
-        double resultAreaTriangle = triangle.areaTriangle(3,2);
-        assertEquals(3.0, resultAreaTriangle);
+        int resultAreaTriangle = triangle.multiplication(3,2);
+        assertEquals(3, resultAreaTriangle);
     }
 
 }

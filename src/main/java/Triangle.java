@@ -1,9 +1,7 @@
-public class Triangle {
+public class Triangle extends Calculator {
 
-    double base;
-    double height;
-
-    public double areaTriangle(double base, double height){
-        return (base*height)/2;
+    @Override
+    public int multiplication(int number1, int number2){
+        return (number1 * number2) / 2 ;
     }
 }
