@@ -24,4 +24,13 @@ public class Main {
         assertEquals(3, resultAreaTriangle);
     }
 
+    @Test
+    public void diff(){
+        int resultAreaSquare = calculator.multiplication(3,2);
+        int resultAreaTriangle = triangle.multiplication(3,2);
+
+        int resultDiff = calculator.diff(resultAreaSquare, resultAreaTriangle);
+        assertEquals(3, resultDiff);
+    }
+
 }
