@@ -13,8 +13,8 @@ public class Main {
 
     @Test
     public void area(){
-        int resultAreaQuadratic = calculator.multiplication(3,2);
-        assertEquals(5, resultAreaQuadratic);
+        int resultAreaSquare = calculator.multiplication(3,2);
+        assertEquals(6, resultAreaSquare);
     }
 
 }
